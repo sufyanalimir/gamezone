@@ -55,12 +55,12 @@ p,label{
 }
 
 .qoute span{ 
-    color: #1f6333;
+    color: #5cdb95;
     letter-spacing: 0.4em;
 }
 
 .login-form{
-    box-shadow: 5px 5px 20px #8ee4af;
+    box-shadow: 5px 5px 20px #5cdb95;
     border-radius: 5%;
     width: 350px;
     font-size: 1.5rem;
@@ -81,7 +81,7 @@ p,label{
 }
 
 .login-form h2 span{
-    color: #1f6333;
+    color: #5cdb95;
 }
 
 .login-form .form-group{
@@ -106,8 +106,8 @@ p,label{
 }
 
 .login-form .form-group input[type='submit']{
-    color: #fff;
-    background: #1f6333;
+    color: #000;
+    background: #5cdb95;
     margin-block-start: 3.5em;
     font-size: 0.6em;
     font-weight: 700;
@@ -119,11 +119,12 @@ p,label{
 .login-form .form-group input[type='submit']:hover{
     background: none;
     cursor: pointer;
-    border: 1px solid #1f6333;
+    border: 1px solid #5cdb95;
+    color: #e3e5e5;
 }
 
 .login-form .form-group input:focus{
-    border: 0.5px solid #8ee4af;
+    border: 0.5px solid #5cdb95;
 }
 
 .form-group p{
@@ -136,9 +137,10 @@ p,label{
     color: #e3e5e5;
     text-decoration: none;
     text-transform: uppercase;
+    transition: all 350ms ease-in-out;
 }
 
 .form-group p a:hover{
-    color: #fff;
-    border-bottom: 1px solid #fff;
+    color: #5cdb95;
+    border-bottom: 1px solid #5cdb95;
 }

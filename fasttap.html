@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Zone | Fast Tap</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/fast-tap.css">
+</head>
+
+<body>
+    <section class="fastTap">
+        <div class="container flex">
+            <h1>Fast Tap</h1>
+            <table>
+                <tr>
+                    <td>
+                        <label>Set Max Play Time (in sec): </label>
+                    </td>
+                    <td>
+                        <input type="number" id="tr" placeholder="set max play time" value="10" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="score">Score: 0</label>
+                    </td>
+                    <td>
+                        <button id="newGame" onclick="newGame()">Start Game</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <canvas id="cv" style="outline: black 1px solid;"></canvas>
+                    </td>
+                </tr>
+                <form id="fasttap">
+                    <input type="text" name="score" id="sco" hidden />
+                </form>
+            </table>
+        </div>
+    </section>
+    <script type="text/javascript" src="./assets/js/fast-tap.js"></script>
+</body>
+
+</html>
