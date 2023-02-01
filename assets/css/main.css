@@ -1,0 +1,144 @@
+/* @import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap"); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cover{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/cover.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1,h2,h3,
+h4,h5,h6,
+p,label{
+    color: azure;
+}
+
+.home-heading{
+    font-family: "Press Start 2P", sans-serif;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 3em;
+}
+
+.home-container{
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.qoute{
+    width: 350px;
+    font-size: 0.8em;
+    color: #e3e5e5;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.qoute span{ 
+    color: #1f6333;
+    letter-spacing: 0.4em;
+}
+
+.login-form{
+    box-shadow: 5px 5px 20px #8ee4af;
+    border-radius: 5%;
+    width: 350px;
+    font-size: 1.5rem;
+    padding-block: 2em;
+}
+
+.login-form .flex{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form h2{
+    color: #e3e5e5;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-block-end: 1em;
+}
+
+.login-form h2 span{
+    color: #1f6333;
+}
+
+.login-form .form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form .form-group label{
+    font-size: 1.2rem;
+    margin: 0.5em 0.5em;
+}
+
+.login-form .form-group input{
+    width: 250px;
+    height: 2rem;
+    border-radius: 5%;
+    padding: 0.5em 1em;
+    background: transparent;
+    color: #fff;
+    border: 0.5px solid rgba(255, 255, 255, 0.2);;
+    transition: all 500ms ease-in-out;
+}
+
+.login-form .form-group input[type='submit']{
+    color: #fff;
+    background: #1f6333;
+    margin-block-start: 3.5em;
+    font-size: 0.6em;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    transition: all 350ms ease-in-out;
+}
+
+.login-form .form-group input[type='submit']:hover{
+    background: none;
+    cursor: pointer;
+    border: 1px solid #1f6333;
+}
+
+.login-form .form-group input:focus{
+    border: 0.5px solid #8ee4af;
+}
+
+.form-group p{
+    color: #e3e5e5;
+    font-size: 0.61em;
+    margin-block-start: 1em;
+}
+
+.form-group p a{
+    color: #e3e5e5;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.form-group p a:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
