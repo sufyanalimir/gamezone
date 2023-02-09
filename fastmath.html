@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Zone | Fast Math</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/fast-math.css">
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="game-container">
+            <table cellspacing="2">
+                <tr>
+                    <td colspan="2">
+                        <select class="btn" id="difficulty" onchange="setTimeDisplay()">
+                            <option selected>Easy</option>
+                            <option>Medium</option>
+                            <option>Hard</option>
+                        </select>
+                    </td>
+                    <td colspan="2"><button class="btn" id="start" onclick="start()">Start</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label>Set Time</label></td>
+                    <td><select class="btn" id="t" onchange="setTimeDisplay()">
+                            <option selected>1</option>
+                            <option>5</option>
+                            <option>10</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label>Remaining Time: </label></td>
+                    <td colspan="2"><label id="toTime">60s</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label>Time per Question: </label></td>
+                    <td colspan="2"><label id="qTime">10s</label></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><label id="q">Question is here</label></td>
+                </tr>
+                <tr>
+                    <td><button class="btn" id="o1" onclick="check(this.innerHTML)">-</button></td>
+                    <td><button class="btn" id="o2" onclick="check(this.innerHTML)">-</button></td>
+                    <td><button class="btn" id="o3" onclick="check(this.innerHTML)">-</button></td>
+                    <td><button class="btn" id="o4" onclick="check(this.innerHTML)">-</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <form name="scoreForm" id="scoreForm" action="scoreMath.php" method="POST">
+        <input type="text" name="data" id="data" hidden>
+    </form>
+    <script type="text/javascript" src="./assets/js/fast-math.js"></script>
+</body>
+
+</html>
