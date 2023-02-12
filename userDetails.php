@@ -59,7 +59,7 @@
         echo"
             <table border=1 cellspacing=20>
                 <tr>
-                    <th colspan=3>FastTap</th>
+                    <th colspan=3>Fast Math</th>
                 </tr>
                 <tr>
                     <th>difficulty</th>
