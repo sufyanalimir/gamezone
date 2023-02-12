@@ -2,6 +2,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .header-group{
     height: 80px;
     padding-block: 1.5em;
@@ -63,4 +64,8 @@
 .game-links a:hover{
     color: #5cdb95;
     border-bottom: 1px solid #5cdb95;
+}
+
+.game-links p{
+    color: #000;
 }

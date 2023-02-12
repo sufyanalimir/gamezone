@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.user-form{
+    background-color: #5cdb95;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.user-form input[type=text],
+.user-form input[type=password]{
+    margin-inline: 1em;
+    padding: 0.05em 0.5em;
+}
+
+.user-form input[type=submit]{
+    padding: 0.05em 0.5em;
+    color: #e3e4e5;
+    background: #000;
+    letter-spacing: 2.5;
+    transition: all 350ms ease-in-out;
+}
+
+.user-form input[type=submit]:hover{
+    background: transparent;
+    color: #000;
+    cursor: pointer;
+}
+
+.user-form label{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+}
+
+table{
+    width: 450px;
+    margin-block: 2em;
+    margin-inline: auto;
+}
+
+table th{
+    border: 0;
+}

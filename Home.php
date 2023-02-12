@@ -1,10 +1,10 @@
 <?php
-    // $uid = $_POST['uid'];
-    $uid = 2;
+    $uid = $_POST['uid'];
 
 echo'
 <html>
     <head>
+    <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/home.css">
     </head>
     <body>
